@@ -10,7 +10,7 @@ function Body() {
     <div className="BROWSE_BODY">
       {/* <Navbar /> */}
       <BrowseCards />
-      <Footer />
+      
     </div>
   );
 }
