@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 function Body({ isLoggedIn, user, handleLogOut }) {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div className="gege" > 
+    
       <section id="section-0">
         <Navbar
           handleLogOut={handleLogOut}

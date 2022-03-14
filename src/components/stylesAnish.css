@@ -27,14 +27,14 @@ button {
 
 .central {
   text-align: center;
-  background-color: transparent;
+  background-color: white;
 }
 .central h1 {
   margin-top: 0.2em;
   font-family: "Noe Display";
   font-size: 5em;
-  color: rgb(0, 0, 0);
-  background-color: transparent;
+  color: black;
+  background-color:transparent;
 }
 
 .central h4 {

@@ -7,7 +7,7 @@ function Footer() {
         	<div class="col-md-3 footer-brand animated fadeInLeft">
             	<h2>Novelia</h2>
                 <p>Novelia acts as platform for for its users to read and enjoys contnet from their favorite autors and also lets them create and share thier own content.</p>
-                <p>© 2020 Novelia, All rights reserved</p>
+                <p>© 2022 Novelia, All rights reserved</p>
             </div>
         	<div class="col-md-4 footer-nav animated fadeInUp">
             	<h4>Menu —</h4>

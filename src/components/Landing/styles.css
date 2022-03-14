@@ -191,3 +191,14 @@ header .container .col-md-7 p {
     border-left: solid 1px rgba(255, 255, 255, 0.1);
   }
 } */
+.gege{
+  
+  background-image: url(./6020173\ 1.png);
+  image-rendering: -webkit-optimize-contrast;
+
+  /* Full height */
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
