@@ -193,7 +193,7 @@ header .container .col-md-7 p {
 } */
 .gege{
   
-  background-image: url(./6020173\ 1.png);
+  background-image: url(./6073083.jpg);
   image-rendering: -webkit-optimize-contrast;
 
   /* Full height */
@@ -201,4 +201,10 @@ header .container .col-md-7 p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.login_button{
+  padding-top: 13px;
+}
+.login_button:hover{
+  background-color: black;
 }

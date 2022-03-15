@@ -49,7 +49,7 @@ const Navbar = ({ isLoggedIn, user, handleLogOut }) => {
             {/* </Link> */}
             {isLoggedIn ? (
               <button
-                class="btn btn2 btn-sm btn-primary w-full w-lg-auto"
+                class="login_button btn btn-primary w-full w-lg-auto "
                 onClick={() => handleClick(handleLogOut)}
               >
                 {user}
@@ -57,9 +57,9 @@ const Navbar = ({ isLoggedIn, user, handleLogOut }) => {
             ) : (
               <Link
               to="/login"
-              class="btn btn2 btn-sm btn-primary w-full w-lg-auto"
+              class=" login_button btn btn-primary w-full w-lg-auto "
             >
-              Login
+              Login/Sign Up
             </Link>
             )}
             {/* <UserIcon /> */}
