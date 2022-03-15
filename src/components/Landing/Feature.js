@@ -1,7 +1,7 @@
 import { faBookOpen, faPen, faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-
+import "./"
 function Feature() {
   return ( 
     <div id="feature" class="container text-center text-white feature-container">
