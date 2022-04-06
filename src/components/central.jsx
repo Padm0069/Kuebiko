@@ -22,7 +22,7 @@ function Central() {
             textAlign: "center",
             backgroundColor: "transparent"
         }}>
-            <h1 style={centralH1}>Kuebiko</h1>
+            <h1 style={centralH1}>Kuebikooooo</h1>
             <h4 style={centralH4}>An Inclusive novel reading and writing website....</h4>
         </div>
     );
