@@ -22,6 +22,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           class="mb-5 font-weight-bold text-white popular-text"
           data-aos="fade-up"
         >
+        
           POPULAR RIGHT NOW
         </h2>
 
