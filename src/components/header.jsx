@@ -50,7 +50,7 @@ function Navigation({isLoggedIn, user}) {
                     </Nav>
                     {console.log(isLoggedIn, user)}
                     {isLoggedIn && <UserIcon className="ml-auto"/>} 
-                    {!isLoggedIn && <a className="ms-auto" href="/login"><button className="login">Login</button></a>}
+                    {!isLoggedIn && <a className="ms-auto" href="/login"><button className="login_button btn btn-primary w-full w-lg-auto">Login</button></a>}
                 </Collapse>
             </Navbar>
 

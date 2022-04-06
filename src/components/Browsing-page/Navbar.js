@@ -59,9 +59,9 @@ function Navbar({ isLoggedIn, user, handleLogOut }) {
             ) : (
               <Link
               to="/login"
-              class="btn btn2 btn-sm btn-primary w-full w-lg-auto"
+              class="login_button btn btn-primary w-full w-lg-auto"
             >
-              Login
+              Login/Sign Up
             </Link>
             )}
           </div>

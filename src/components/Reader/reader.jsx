@@ -54,10 +54,10 @@ function Reader({ bookName }) {
     
     return (
         <React.Fragment>
-            <Container style={{ width: "75%" }}>
+            <Container style={{ width: "75%" }}/>
                 <Chapter bookName={res.Name} content={content} chapterNo={chapterNo} />
                 <CommentBox />
-            </Container >
+            
             <div>
                 <Burger open={openBurger} setOpen={setOpenBurger} />
                 <Menu open={openBurger} chapters={content.InBook && content.InBook} setOpen={setOpenBurger} setChapterNo={setChapterNo} />
