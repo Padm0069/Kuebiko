@@ -70,7 +70,7 @@ function Main() {
                     <Redirect push to={'/reader'} />
                 </Route>
                 <Route exact path="/createBook" component={() => (
-                    <div>
+                    <div style={{backgroundColor:"rgb(191, 255, 240)",paddingBottom:"10px"}}>
                         <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
                         <CreateBook Author={user} />
                         <CreateChapter Author={user} />
