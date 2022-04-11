@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Padm0069.github.io/Kuebiko",
   "name": "novelia",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "bootstrap": "^5.0.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.3",
     "google-tts-api": "^2.0.2",
     "hover.css": "^2.3.2",
     "jquery": "^3.6.0",
@@ -29,6 +31,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
