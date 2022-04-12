@@ -31,7 +31,7 @@ const AllBooks = ({ setBookName }) => {
                 <div
                     className="col-lg-12 m-3 p-4 text-center hvr-grow"
                     onClick={() => handleClick(element.Name)}
-                    style={{ background:"rgb(231, 231, 231)", borderRadius:"15px", cursor: "pointer"}}
+                    style={{ background:"rgb(182, 255, 206)", borderRadius:"15px", cursor: "pointer"}}
                 >{element.Name}</div>
             ))}
         </div>
