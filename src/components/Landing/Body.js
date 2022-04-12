@@ -42,7 +42,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
               <div class="mask rgba-white-slight"></div>
             </div>
 
-            <h4 class="my-4 font-weight-bold text-white">The Empress</h4>
+            <h4 class="my-4 font-weight-bold text-white">The Empress HELLO PADM</h4>
             <p class="text-white">
               Rise of the queen. Over decades of being deprived of her title
               marie finally gets back her throne.
