@@ -29,7 +29,7 @@ function BookCardComp({setBookName}) {
             <div className="card-body cardBody">
               <h5 className="card-title">Insignia</h5>
               <p className="card-text">
-              Mordred gets her revenge and gets back to her lover and they sail over to moon.
+              Mordred gets her revenge and gets back to her lover and they sail over to moon1234.
               </p>
               <button onClick={() => handleClick("Insignia")} className="btn btn1 btn-primary">
                 Read
