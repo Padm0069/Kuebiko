@@ -40,7 +40,30 @@ keep writing and improving.
 - A platform for its users to read their favorite novels and also for the authors to showcase their creativity.
 - Text to speech features so that visually impaired users can also enjoy the content of the books.
 - Upload books in multiple languages thus people from different regions can upload and read books.
+## Installation
+- Setup .env variables  ;
 
+```DB_CONNECT = "This is Connection string to MongoDB"
+TOKEN_USER = 'Secret Token for Auth'
+KEY_STRIPE = 'Stripe Key (can be found in website of stripe after registration)'
+GUEST_TOKEN = 'Secret token for the guest user'
+
+GMAIL_ACC = 'Email adress from where to send emails. Requires setup in Gmail in order to use this.'
+GMAIL_PASW = 'Gmail password'
+AWS_KEYID = 'AWS Storage Key (requires registration in Amazon). This is for the Images that Admin panel adds (new product).'
+AWS_SECRET = 'Aws Key Storage'
+RESET_PASS = 'Password Reset Secret Token String'
+RESET_LINK = 'Change PAssword pathname f.ex in local can be : http://localhost:3000/changepassword'
+```
+- Run npm start
+# License 
+You must not reproduce and distribute copies of the work or derivative works thereof in any medium, with or without
+modifications, and in Source or Object form.
+
+# Team Members 
+1. **Padm Keshav**: 20BCE2708
+2. **Rudhra Deep Biswas**: 20BCE0683
+3. **Anushka Srivastava**: 20BCE0683
 
 
 
