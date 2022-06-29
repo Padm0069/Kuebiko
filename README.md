@@ -1,4 +1,5 @@
 # Kuebiko
+![Site Demo](https://github.com/Padm0069/Kuebiko/blob/main/src/components/Landing/Kuebiko-preview.gif)
 # Description :point_left:
 A React based novel Reader and writer website
 This website will act as a platform for the writers to showcase their creativity and the
