@@ -34,7 +34,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
+                style={{ width: "50%", maxHeight: "500px" }}
                 src="https://images-na.ssl-images-amazon.com/images/I/81QSVDBGkEL.jpg"
                 class="img-fluid"
                 alt=""
@@ -56,7 +56,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
+                style={{ width: "50%", maxHeight: "500px" }}
                 src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539302358l/42281998._SY475_.jpg"
                 class="img-fluid"
                 alt=""
@@ -78,7 +78,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
+                style={{ width: "50%", maxHeight: "500px" }}
                 src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590598478l/53174067.jpg"
                 class="img-fluid"
                 alt=""
@@ -102,8 +102,8 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
-                src="https://kbimages1-a.akamaihd.net/dd1baacc-184b-4f28-a7d5-6dbe70816fb7/353/569/90/False/a-game-of-thrones.jpg"
+                style={{ width: "50%", maxHeight: "500px" }}
+                src="https://cdn.kobo.com/book-images/6701ad1a-fc89-4421-8e3f-79c36187d331/1200/1200/False/a-game-of-thrones-the-story-continues-books-1-5-a-game-of-thrones-a-clash-of-kings-a-storm-of-swords-a-feast-for-crows-a-dance-with-dragons-a-song-of-ice-and-fire.jpg"
                 class="img-fluid"
                 alt=""
               />
@@ -124,7 +124,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
+                style={{ width: "50%", maxHeight: "500px" }}
                 src="https://images-na.ssl-images-amazon.com/images/I/91EVnJvVTjL.jpg"
                 class="img-fluid"
                 alt=""
@@ -146,7 +146,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
           >
             <div class="view overlay z-depth-1-half">
               <img
-                style={{ width: "70%", maxHeight: "500px" }}
+                style={{ width: "50%", maxHeight: "500px" }}
                 src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375156317l/18270118.jpg"
                 class="img-fluid"
                 alt=""

@@ -1,4 +1,5 @@
 import React from "react";
+import girlImage from './girl.png';
 
 export default function Header() {
   return (
@@ -10,7 +11,8 @@ export default function Header() {
             <p>An inclusive novels reading and writing website</p>
           </div>
           <div class="col-md-5 col-sm-12 h-25" data-aos="fade-up">
-            <img src="/media/Group 4.svg" alt="Book" />
+          <img src={girlImage} style={{height:'60vh'}} alt="Book" />
+
           </div>
         </div>
       </div>
