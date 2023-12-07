@@ -30,7 +30,6 @@ keep writing and improving.
   - React
   - Bootsrap
   - Jquery
-  - React-dom
   
  - Backend 
     - Node JS
