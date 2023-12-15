@@ -10,7 +10,7 @@ function Footer() {
                 <div className="col-md-3 footer-brand animated fadeInLeft">
                     <h2>Kuebiko</h2>
                     <p>Kuebiko acts as platform for for its users to read and enjoys content from their favorite autors and also lets them create and share thier own content.</p>
-                    <p>© 2022 Kuebiko, All rights reserved</p>
+                    <p>© 2023 Kuebiko, All rights reserved</p>
                 </div>
                 <div className="col-md-4 footer-nav animated fadeInUp">
                     <h4>Menu —</h4>

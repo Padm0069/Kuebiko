@@ -18,6 +18,7 @@ backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
 
     /* Add other styles as needed */
   };
+  
   return ( 
     <React.Fragment>
 
@@ -29,7 +30,8 @@ backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
     
       {/* Existing Features */}
       <div className="p-5 mt-4 mb-5">
-        <div className="card bg-dark" style={{ width: '18rem' }}>
+        <div className="card bg-dark" style={{ width: '18rem',backgroundColor: '#0093E9',
+backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)' }}>
           <img src={card1} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">
@@ -42,7 +44,8 @@ backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
       </div>
 
       <div className="p-5 mt-4 mb-5">
-        <div className="card bg-dark" style={{ width: '25rem' }}>
+        <div className="card bg-dark" style={{ width: '25rem',backgroundColor: '#0093E9',
+backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)' }}>
           <img src={card2} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">
@@ -54,7 +57,8 @@ backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
       </div>
 
       <div className="p-5 mt-5 mb-5">
-        <div className="card bg-dark" style={{ width: '18rem' }}>
+        <div className="card bg-dark" style={{ width: '18rem',backgroundColor: '#0093E9',
+backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)' }}>
           <img src={card3} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">

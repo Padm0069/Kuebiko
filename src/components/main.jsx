@@ -60,9 +60,10 @@ function Main() {
         <React.Fragment>
         <Switch>
         <Route exact path="/">
-          <div>
+          <div style={{overflow:'hidden'}}>
             <Landing handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <Browse />
+            <Footer/>
           </div>
         </Route>
   
@@ -83,10 +84,12 @@ function Main() {
         </Route>
   
         <Route exact path="/createBook">
-          <div style={{ backgroundColor: "rgb(191, 255, 240)", paddingBottom: "10px" }}>
+          <div style={containerStyle}>
             <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <CreateBook Author={user} />
             <CreateChapter Author={user} />
+            <Footer/>
+            
           </div>
         </Route>
   
@@ -94,6 +97,7 @@ function Main() {
           <div>
             <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <CreateChapter Author={user} />
+            <Footer/>
           </div>
         </Route>
   
@@ -101,6 +105,7 @@ function Main() {
           <div>
             <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <Browse />
+            <Footer/>
           </div>
         </Route>
   
@@ -108,6 +113,7 @@ function Main() {
           <div style={containerStyle}>
             <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <BookCardComp setBookName={setBookName} />
+            <Footer/>
           </div>
         </Route>
   
@@ -120,6 +126,7 @@ function Main() {
           <div>
             <Navbar handleLogOut={handleLogOut} isLoggedIn={isLoggedIn} user={user} />
             <AllBooks setBookName={setBookName} />
+            <Footer/>
           </div>
         </Route>
   
@@ -132,7 +139,7 @@ function Main() {
         </Route>
         
       </Switch>
-      <Footer/>
+      
       </React.Fragment>
       
     )
