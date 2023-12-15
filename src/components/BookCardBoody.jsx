@@ -14,9 +14,17 @@ function BookCardComp({setBookName}) {
       history.push("/reader");
     });
   }
+  const containerStyle = {
+  
+    backgroundColor: '#0093E9',
+backgroundImage: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
+
+
+    /* Add other styles as needed */
+  };
 
   return (
-    <div className="container" data-aos="fade-up" >
+    <div className="container" data-aos="fade-up"  >
       <div className="row align-items-center text-center mt-5 ml-3 mr-3">
         <div className="col-md-4">
           <div className="card text-center">
@@ -61,7 +69,7 @@ function BookCardComp({setBookName}) {
         <div className="col-md-4">
           <div className="card">
             <img
-              src="https://kbimages1-a.akamaihd.net/dd1baacc-184b-4f28-a7d5-6dbe70816fb7/353/569/90/False/a-game-of-thrones.jpg"
+              src="https://cdn.kobo.com/book-images/6701ad1a-fc89-4421-8e3f-79c36187d331/1200/1200/False/a-game-of-thrones-the-story-continues-books-1-5-a-game-of-thrones-a-clash-of-kings-a-storm-of-swords-a-feast-for-crows-a-dance-with-dragons-a-song-of-ice-and-fire.jpg"
               className="card-img-top cardImage"
               style= {{maxHeight: "250px"}}
               alt="..."

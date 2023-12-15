@@ -43,7 +43,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">The Empress</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               Rise of the queen. Over decades of being deprived of her title
               marie finally gets back her throne.
             </p>
@@ -65,7 +65,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">Unrelenting Tide</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               Kid with spcial powers fights otherworldly creatures to save his
               planet from horrible fate.
             </p>
@@ -87,7 +87,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">Skyhunter</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               A youth seeks for a redemption of his past deed and seeks to
               travel.
             </p>
@@ -111,7 +111,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">Game of Thrones</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               Tale of love and war that grows iminent over time. The tale of
               betrayal and survival
             </p>
@@ -133,7 +133,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">Crooked Kingdom</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               A dark and omnious creature rises from the deaths of hell to take
               over the world
             </p>
@@ -155,7 +155,7 @@ function Body({ isLoggedIn, user, handleLogOut }) {
             </div>
 
             <h4 class="my-4 font-weight-bold text-white">Insignia</h4>
-            <p class="text-white">
+            <p class="text-white fs-3">
               Mordred gets her revenge and gets back to her lover and they sail
               over to moon.
             </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import girlImage from './girl.png';
+import girlImage2 from "./73Z_2108.w023.n001.896B.p1.896.jpg";
 
 export default function Header() {
   return (
