@@ -61,10 +61,10 @@ RESET_LINK = 'Change PAssword pathname f.ex in local can be : http://localhost:3
 You must not reproduce and distribute copies of the work or derivative works thereof in any medium, with or without
 modifications, and in Source or Object form.
 
-# Team Members 
-1. **Padm Keshav**: 20BCE2708
-2. **Rudhra Deep Biswas**: 20BCE0683
-3. **Anushka Srivastava**: 20BCE0683
+# Collaborators
+1. **Padm Keshav**
+2. **Rudhra Deep Biswas**
+3. **Anushka Srivastava**
 
 
 
